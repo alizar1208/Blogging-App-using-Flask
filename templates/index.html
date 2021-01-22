@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title> 
+{% endblock %}
+
+{% block body %}
+<h1>Home</h1>
+<main role="main">
+    <div class="jumbotron">
+      <div class="col-sm-8 mx-auto">
+        <h1>Welcome</h1>
+        <p> Welcome to my first-ever web application.  Basically, this webapp is a blogger website that contains the CRUD API. I built this website using Flask as my backend system and  HTML, CSS for the front end.</p>
+        <p>Hope you guys liked it!🖖</p>  
+        <p>
+            <a class="btn btn-primary" href="/posts" role="button">View Posts</a>
+        </p>
+      </div>
+    </div>
+  </main>
+{% endblock %}
